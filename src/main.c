@@ -27,7 +27,7 @@ int main(void)
     tft_init();
     touchpad_init();
 
-    lv_demo_widgets();
+    lv_demo_benchmark();
 
     while (1)
     {
